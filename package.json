@@ -16,10 +16,12 @@
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc-global --expose-gc --reporter spec"
   },
+  "peerDependencies": {
+    "ref": ""
+  },
   "dependencies": {
     "array-index": "1",
-    "debug": "4",
-    "ref": "lxe/ref#node-12"
+    "debug": "4"
   },
   "devDependencies": {
     "bindings": "1",
